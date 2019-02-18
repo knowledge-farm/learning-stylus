@@ -1,0 +1,24 @@
+{
+  "name": "learning-stylus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:stylus": "stylus --compress src/stylus/main.styl --out dist/css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knowledge-farm/learning-stylus.git"
+  },
+  "keywords": [],
+  "author": "Caio Santos <caio.f.santos@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knowledge-farm/learning-stylus/issues"
+  },
+  "homepage": "https://github.com/knowledge-farm/learning-stylus#readme",
+  "devDependencies": {
+    "stylus": "^0.54.5"
+  }
+}
